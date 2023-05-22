@@ -17,7 +17,6 @@ window.onload = () => {
             balloon.style.backgroundColor = siguienteColor();
             balloon.style.width = widthActual + 'px';
             balloon.style.height = heightActual + 'px';
-            balloon.style.marginTop = marginActual + 'px';
         }
     }
 
@@ -28,7 +27,6 @@ window.onload = () => {
             balloon.style.backgroundColor = siguienteColorInverso();
             balloon.style.width = widthActual + 'px';
             balloon.style.height = heightActual + 'px';
-            balloon.style.marginTop = marginActual + 'px';
         }
     }
 
@@ -47,7 +45,6 @@ window.onload = () => {
     function reestablecerCirculo() {
         widthActual = 200;
         heightActual = 200;
-        marginActual = 350;
         balloon.style.backgroundColor = 'red';
         balloon.style.width = widthActual + 'px';
         balloon.style.height = heightActual + 'px';

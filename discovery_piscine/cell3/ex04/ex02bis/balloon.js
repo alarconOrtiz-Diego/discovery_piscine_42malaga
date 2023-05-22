@@ -22,8 +22,8 @@ $(() => {
 
     function decrecer() {
         if (widthActual > 200) {
-            widthActual -= 10;
-            heightActual -= 10;
+            widthActual -= 5;
+            heightActual -= 5;
             $("#balloon").css({
                 "background-color": siguienteColorInverso(),
                 "width": widthActual + "px",
